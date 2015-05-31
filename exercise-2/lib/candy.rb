@@ -1,12 +1,9 @@
 class Candy
-  attr_reader :type, :amount
+  attr_reader :type, :sugar
 
-  def initialize(type, amount = 100)
+  def initialize(type, sugar = 100)
     @type = type
-    @amount = amount
+    @sugar = sugar
   end
 
-  def sugar
-    @amount
-  end
 end
